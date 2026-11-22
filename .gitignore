@@ -1,0 +1,38 @@
+# Python caches & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+**/venv/
+ENV/
+
+# Testing & Jupyter caches
+.pytest_cache/
+.ipynb_checkpoints/
+tests/
+conftest.py
+
+# Local instructions, logs & agent files (not pushed to GitHub)
+TASKS.md
+CONTEXT.md
+GEMINI.md
+_archive/
+
+# IDE & OS files
+.idea/
+.vscode/
+.agent/
+.agents/
+.DS_Store
+Thumbs.db
+
+# Secrets & build artifacts
+.env
+*.key
+*.pem
+dist/
+build/
+*.egg-info/
